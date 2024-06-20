@@ -7,8 +7,8 @@
 body{
     background-color: #000;
 }
-p.time{
-    text-align:left;
+div.time{
+    text-align: right;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -19,8 +19,11 @@ p.time{
     font-weight: 400;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1170px){
     p.time{
-        width: 180px;
+        width: 200px;
+    }
+    #s{
+        text-align: left;
     }
 }
