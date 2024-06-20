@@ -7,7 +7,7 @@
 body{
     background-color: #000;
 }
-div.time{
+.time{
     text-align: right;
     position: absolute;
     top: 50%;
@@ -20,7 +20,7 @@ div.time{
 }
 
 @media screen and (max-width: 1170px){
-    p.time{
+    div.time{
         width: 200px;
     }
     #s{
